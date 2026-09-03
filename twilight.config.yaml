@@ -168,13 +168,13 @@ navbar:
             "Archive"
         - # 一级导航链接 - 展览 (自定义)
             # 导航名称
-            name: "Exhibition"
+            name: "酒馆"
             # 导航链接
             url: "/exhibition/"
             # 导航图标
-            icon: "material-symbols:person"
+            icon: "material-symbols:liquor-rounded"
             # 导航描述
-            description: "A collection of my creative works and experiences"
+            description: "饮下曼陀罗酒，然后在蒸腾的迷幻中得见更多……"
             # 子链接
             children:
                 - # 二级导航链接 - 项目 (预设)
@@ -275,7 +275,10 @@ profile:
     # 信息配置
     name: "夏朗德"
     # 简介配置
-    bio: "致力于哲学、科学、神秘学和美学的综合学习"
+    bio: |
+        一只白狐狸
+        桌游爱好者
+        正致力于哲学、科学、神秘学和美学的综合学习
     # 链接配置
     links:
         - # 链接示例

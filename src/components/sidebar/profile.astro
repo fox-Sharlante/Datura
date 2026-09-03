@@ -35,7 +35,7 @@ const id = `profile-${side}`;
     <div class="px-2">
         <div class="font-bold text-xl text-center mb-1 dark:text-neutral-50 transition">{profileConfig.name}</div>
         <div class="h-1 w-5 bg-(--primary) mx-auto rounded-full mb-2 transition"></div>
-        <div class="text-center text-neutral-400 mb-2.5 transition">{profileConfig.bio}</div>
+        <div class="text-center text-neutral-400 mb-2.5 transition whitespace-pre-line">{profileConfig.bio}</div>
         <div class="flex gap-2 justify-center mb-1">
             {profileConfig.links.length > 1 && profileConfig.links.map(item =>
                     <a rel="me" aria-label={item.name} href={item.url} target="_blank" class="btn-regular rounded-lg h-10 w-10 active:scale-90">
